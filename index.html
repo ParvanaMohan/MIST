@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MIST | Your Ambient Workspace</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main class="workspace">
+
+        <!-- Top navigation -->
+        <header class="topbar">
+            <a class="logo" href="#">MIST <span>—</span></a>
+            <p class="status">YOUR PERSONAL SPACE</p>
+        </header>
+
+        <!-- Main heading -->
+        <section class="hero">
+            <p class="eyebrow">A LITTLE SPACE FOR YOURSELF</p>
+
+            <h1>MIST</h1>
+
+            <h2 class="hero-tagline">Find your focus.</h2>
+
+            <p class="subtitle">
+                Create an atmosphere that feels just right.
+            </p>
+        </section>
+
+        <!-- Current atmosphere -->
+        <section class="scene">
+            <div class="scene-content">
+                <p id="scene-label">YOUR CURRENT ATMOSPHERE</p>
+
+                <h2 id="scene-title">A Quiet Evening</h2>
+
+                <p id="scene-description">
+                    Slow down, breathe, and find your rhythm.
+                </p>
+            </div>
+
+            <div class="scene-decoration" aria-hidden="true">☾</div>
+        </section>
+
+        <!-- Workspace controls -->
+        <section class="controls">
+            <h2>Your atmosphere</h2>
+
+            <p class="section-description">
+                Adjust the little things until they feel right.
+            </p>
+
+            <!-- Rain sounds -->
+            <div class="control-card">
+                <div>
+                    <span class="control-icon">🌧️</span>
+
+                    <div class="control-text">
+                        <h3>Rain sounds</h3>
+                        <p>Gentle rain outside your window</p>
+                    </div>
+                </div>
+
+                <button
+                    class="toggle"
+                    id="rain-toggle"
+                    type="button"
+                    aria-pressed="false"
+                    aria-label="Toggle rain sounds">
+                    OFF
+                </button>
+            </div>
+
+            <!-- Cafe sounds -->
+            <div class="control-card">
+                <div>
+                    <span class="control-icon">☕</span>
+
+                    <div class="control-text">
+                        <h3>Café ambience</h3>
+                        <p>A little background company</p>
+                    </div>
+                </div>
+
+                <button
+                    class="toggle"
+                    id="cafe-toggle"
+                    type="button"
+                    aria-pressed="false"
+                    aria-label="Toggle café ambience">
+                    OFF
+                </button>
+            </div>
+
+            <!-- Lighting -->
+            <div class="control-card">
+                <div>
+                    <span class="control-icon">💡</span>
+
+                    <div class="control-text">
+                        <h3>Lighting</h3>
+                        <p>Choose your preferred atmosphere</p>
+                    </div>
+                </div>
+
+                <select id="lighting">
+                    <option value="warm">Warm</option>
+                    <option value="neutral">Neutral</option>
+                    <option value="cool">Cool</option>
+                </select>
+            </div>
+
+            <!-- Time of day -->
+            <div class="control-card">
+                <div>
+                    <span class="control-icon">🌅</span>
+
+                    <div class="control-text">
+                        <h3>Time of day</h3>
+                        <p>Set the mood for your session</p>
+                    </div>
+                </div>
+
+                <select id="time-of-day">
+                    <option value="morning">Morning</option>
+                    <option value="afternoon">Afternoon</option>
+                    <option value="evening" selected>Evening</option>
+                    <option value="night">Night</option>
+                </select>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>Made for slower moments and better focus.</p>
+            <p>© 2026 MIST</p>
+        </footer>
+
+        </main>
+
+<audio id="rain-audio" loop preload="none">
+    <source src="assets/audio/rain.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="cafe-audio" loop preload="none">
+    <source src="assets/audio/cafe.mp3" type="audio/mpeg">
+</audio>
+</body>
+</html>
