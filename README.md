@@ -24,19 +24,21 @@ It allows users to customize their surroundings by choosing background sounds, l
 - **CSS3:** Used for styling, layout, and visual appearance.
 - **JavaScript:** Used to add interactive features and control the website's settings.
 
-## 📂 Project Structure
 
+## Project Structure
+
+```text
 MIST/
-│
 ├── assets/
-│   └── audio/
-│       ├── cafe.mp3
-│       └── rain.mp3
-│
-└── src/
-    ├── index.html
-    ├── style.css
-    └── script.js
+│   ├── rain.mp3
+│   └── cafe.mp3
+├── index.html
+├── rain.html
+├── style.css
+├── script.js
+└── README.md
+```
+
 
 ## 🚀 How to Use
 
