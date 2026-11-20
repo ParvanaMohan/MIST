@@ -51,11 +51,11 @@ MIST/
 
 ## Screenshots
 
-![MIST Website Screenshot](mist-homepage.png)
-![MIST Website Screenshot](mist-morning.png)
-![MIST Website Screenshot](mist-nightmode.png)
-![MIST Website Screenshot](mist-neutral.png)
-![MIST Website Screenshot](mist-cool.png)
+![MIST Website Screenshot](homepage.png)
+![MIST Website Screenshot](morning.png)
+![MIST Website Screenshot](nightmode.png)
+![MIST Website Screenshot](neutral.png)
+![MIST Website Screenshot](cool.png)
 
 ## 🎯 Purpose of the Project
 
